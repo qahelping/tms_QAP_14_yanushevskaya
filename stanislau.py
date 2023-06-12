@@ -1,1 +1,1 @@
-print("Hello_Stas")g
+print("Hello_Stas")

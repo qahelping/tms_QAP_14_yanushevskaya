@@ -1,5 +1,8 @@
-from helen import say_name_helen
+G = 10
 
-print("Hello!!")
-print("BYE!!")
-say_name_helen()
+def make_closure():
+    a = 1
+    b = 2
+    def inner(x):
+        return x + G + a
+    return inner
